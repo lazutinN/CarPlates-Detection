@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-Это первая попытка переноса кода обучения модели в формат скрипта, поэтому при возникновении ошибок, пожалуйста, воспользуйтесь нашим [colab-ноутбуком](https://colab.research.google.com/drive/1lIPxpevRpa20-TL_uK4XlQGeaDVv1Rfl#scrollTo=0iVgojf9_8Rb)!
+Это первая попытка переноса кода обучения модели в формат скрипта, поэтому при возникновении ошибок, пожалуйста, воспользуйтесь нашим [colab-ноутбуком](https://colab.research.google.com/drive/1lIPxpevRpa20-TL_uK4XlQGeaDVv1Rfl)!
 
 ## Overview
 
