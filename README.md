@@ -72,11 +72,24 @@
 
 ## Результаты
 
-Для проверки работы системы запустите скрипт `python pipeline.py ссылка_на_изображение`. Например: `python pipeline.py https://777nomera.ru/images/os_imagegallery_99/original/8043169.jpg` или `python pipeline.py https://777nomera.ru/images/avtogallery/BOP/ru5497672.jpg` для машин из базы данных или `python pipeline.py https://777nomera.ru/images/avtogallery/BOP/ru5497672.jpg`, чтобы увидеть, что проезд запрещен.
+Для проверки работы системы запустите скрипт 
+```
+cd model
+python pipeline.py ссылка_на_изображение
+```
+Например: `python pipeline.py https://777nomera.ru/images/os_imagegallery_99/original/8043169.jpg` или `python pipeline.py https://777nomera.ru/images/avtogallery/BOP/ru5497672.jpg` для машин из базы данных или `python pipeline.py https://777nomera.ru/images/avtogallery/BOP/ru5497672.jpg`, чтобы увидеть, что проезд запрещен.
 
 <p align="middle">
   <img src="https://uzr.com.ua/wp-content/uploads/2015/10/Nomera_rus_1.jpg" width=350 />
   <img src="model/runs/detect/Nomera_rus_1/crops/plates/Nomera_rus_1.jpg" width=350 />
   <img src="model/runs/detect/Nomera_rus_1/Nomera_rus_1.jpg" width=350 />
 </p>
+
+В качестве метрики была выбрана метрика Character Error Rate (CER). Подробнее о ней можно прочитать [здесь](https://towardsdatascience.com/evaluating-ocr-output-quality-with-character-error-rate-cer-and-word-error-rate-wer-853175297510).
+Mean CER системы = 44.40%.
+Запустить скрипт тестирования можно следующим образом:
+```
+cd model/utils
+python test.py
+```
 

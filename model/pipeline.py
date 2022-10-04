@@ -82,9 +82,9 @@ def pipeline(model, img_name):
     return cars_data
 
 
-weights_path = './yolov5/runs/train/exp/weights/last.pt'
+weights_path = '../yolov5/runs/train/exp/weights/last.pt'
 if not path.exists(weights_path):
-    weights_path = './last.pt'
+    weights_path = '../last.pt'
 
 # Берем обученную нами модель
 mdl = torch.hub.load('ultralytics/yolov5', 'custom', path=weights_path, force_reload=True)
