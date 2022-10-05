@@ -59,6 +59,8 @@
 * dataset.yml - конфигурационный файл с информацией о датасете
 * last.pt - веса дообученной модели
 
+Папку с датасетом можно взять [здесь](https://drive.google.com/drive/folders/1tR_B7m3L5tiuntv--fGtWnMrni05VJIf?usp=sharing), файл last.pt доступен по [ссылке](https://drive.google.com/file/d/1o5w-KSCqSMMMNmjdL5bwMa5TG7QqnxJp/view?usp=sharing).
+
 ## Logging
 
 Локально результаты обучения сохраняются в папку `/runs/train/exp`, которая создается при запуске обучения.
