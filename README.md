@@ -11,6 +11,12 @@
 ### О системе
 Пропускная система, помогающая охраннику идентифицировать автомобиль с целью принятия решения по допуску через КПП предприятия на территорию.
 
+  <img src="data/0_project_architecture.PNG" width=650 />
+
+<p align="middle">
+  <img src="data/tech.png" width=600 />
+</p>
+
 Принцип работы:
 
 0. Камера, установленная на КПП, фиксирует номера подъезжающих автомобилей;
@@ -71,6 +77,11 @@
 
 ## Результаты
 
+<p align="middle">
+  <img src="data/results.png" width=350 />
+  <img src="data/val_batch2_pred.jpg" width=350 />
+</p>
+
 Для проверки работы системы запустите скрипт 
 ```
 cd model
@@ -92,3 +103,10 @@ cd model/utils
 python test.py
 ```
 
+Помимо успешного результата с Yolov5 у нас был и фейл с дообучением модели RESNET Neural Network:
+
+<p align="middle">
+  <img src="data/RESNETNN1.PNG" width=350 />
+  <img src="data/RESNETNN2.PNG" width=350 />
+  <img src="data/RESNETNN3.PNG" width=350 />
+</p>
