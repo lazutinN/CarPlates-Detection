@@ -103,6 +103,8 @@ cd model/utils
 python test.py
 ```
 
+## Эксперименты
+
 Помимо успешного результата с Yolov5 у нас был и фейл с дообучением модели RESNET Neural Network:
 
 <p align="middle">
@@ -110,3 +112,5 @@ python test.py
   <img src="data/RESNETNN2.PNG" width=350 />
   <img src="data/RESNETNN3.PNG" width=350 />
 </p>
+
+В связи с провалом решения с RESNET, мы выбрали вариант воспользоваться Yolov5, как видно выше данная модель действительно показывает наиболее лучший результаты в детекции.
