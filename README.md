@@ -11,10 +11,10 @@
 ### О системе
 Пропускная система, помогающая охраннику идентифицировать автомобиль с целью принятия решения по допуску через КПП предприятия на территорию.
 
-  <img src="data/0_project_architecture.PNG" width=650 />
+  <img src="docs/0_project_architecture.PNG" width=650 />
 
 <p align="middle">
-  <img src="data/tech.png" width=600 />
+  <img src="docs/tech.png" width=600 />
 </p>
 
 Принцип работы:
@@ -78,8 +78,8 @@
 ## Результаты
 
 <p align="middle">
-  <img src="data/results.png" width=350 />
-  <img src="data/val_batch2_pred.jpg" width=350 />
+  <img src="docs/results.png" width=350 />
+  <img src="docs/val_batch2_pred.jpg" width=350 />
 </p>
 
 Для проверки работы системы запустите скрипт 
@@ -108,9 +108,9 @@ python test.py
 Помимо успешного результата с Yolov5 у нас был и фейл с дообучением модели RESNET Neural Network:
 
 <p align="middle">
-  <img src="data/RESNETNN1.PNG" width=350 />
-  <img src="data/RESNETNN2.PNG" width=350 />
-  <img src="data/RESNETNN3.PNG" width=350 />
+  <img src="docs/RESNETNN1.PNG" width=350 />
+  <img src="docs/RESNETNN2.PNG" width=350 />
+  <img src="docs/RESNETNN3.PNG" width=350 />
 </p>
 
 В связи с провалом решения с RESNET, мы выбрали вариант воспользоваться Yolov5, как видно выше данная модель действительно показывает наиболее хороший результат в детекции.
